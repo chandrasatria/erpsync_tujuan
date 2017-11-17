@@ -82,25 +82,50 @@ fixtures = ["Custom Field"]
 doc_events = {
 	"Sales Order": {
 		"on_submit": "sync_management.sync_management.sync_target_settings.switch_name_doc",
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
 	},
 	"Delivery Note": {
 		"on_submit": "sync_management.sync_management.sync_target_settings.switch_name_doc",
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
 	},
 	"Sales Invoice": {
 		"on_submit": "sync_management.sync_management.sync_target_settings.switch_name_doc",
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
 	},
 	"Material Request": {
 		"on_submit": "sync_management.sync_management.sync_target_settings.switch_name_doc",
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
 	},
 	"Purchase Order": {
 		"on_submit": "sync_management.sync_management.sync_target_settings.switch_name_doc",
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
 	},
 	"Purchase Receipt": {
 		"on_submit": "sync_management.sync_management.sync_target_settings.switch_name_doc",
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
 	},
 	"Purchase Invoice": {
 		"on_submit": "sync_management.sync_management.sync_target_settings.switch_name_doc",
-	}
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
+	},
+	"Stock Entry": {
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
+	},
+	"Production Order": {
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
+	},
+	"Payment Entry": {
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
+	},
+	"Journal Entry": {
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
+	},
+	"Stock Reconciliation": {
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
+	},
+	"Landed Cost Voucher": {
+		"autoname" : "sync_management.sync_management.sync_target_settings.sync_autoname",
+	},
 }
 
 # Scheduled Tasks
